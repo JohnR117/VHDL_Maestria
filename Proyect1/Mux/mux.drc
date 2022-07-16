@@ -1,0 +1,8 @@
+Release 12.4 Drc M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Sat Jul 16 18:16:16 2022
+
+drc -z Mux.ncd Mux.pcf
+
+DRC detected 0 errors and 0 warnings.

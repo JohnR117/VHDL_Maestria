@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Maestria\EDA\Proyect1\Mux\Mux.ncd
+OUTFILE=D:\Maestria\EDA\Proyect1\Mux\Mux.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5ft256
+WORKINGDIR=D:\Maestria\EDA\Proyect1\Mux
+LICENSE=WebPack
+USER_INFO=0_0_0

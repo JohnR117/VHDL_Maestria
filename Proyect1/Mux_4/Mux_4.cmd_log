@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Maestria/EDA/Proyect1/Mux_4/Mux_4.xst" -ofn "D:/Maestria/EDA/Proyect1/Mux_4/Mux_4.syr" 
+netgen -intstyle ise -ar Structure -tm Mux_4 -w -dir netgen/synthesis -ofmt vhdl -sim Mux_4.ngc Mux_4_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-5 Mux_4.ngc Mux_4.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Mux_4_map.ncd Mux_4.ngd Mux_4.pcf 
+par -w -intstyle ise -ol high -t 1 Mux_4_map.ncd Mux_4.ncd Mux_4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Mux_4.twx Mux_4.ncd -o Mux_4.twr Mux_4.pcf 

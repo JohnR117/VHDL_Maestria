@@ -1,0 +1,5 @@
+set -tmpdir "D:/Maestria/EDA/Proyect1/Mux_4/xst/projnav.tmp"
+set -xsthdpdir "D:/Maestria/EDA/Proyect1/Mux_4/xst"
+elaborate
+-ifn Mux_4.prj
+-ifmt mixed

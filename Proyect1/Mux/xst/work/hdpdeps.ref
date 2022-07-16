@@ -1,0 +1,7 @@
+V3 3
+FL D:/Maestria/EDA/Proyect1/Mux/Mux.vhd 2022/07/15.21:13:54 M.81d
+EN work/Mux 1657988056 FL D:/Maestria/EDA/Proyect1/Mux/Mux.vhd \
+      PH IEEE/STD_LOGIC_1164 0 PH IEEE/STD_LOGIC_ARITH 0 \
+      PH IEEE/STD_LOGIC_UNSIGNED 0
+AR work/Mux/Behavioral 1657988057 \
+      FL D:/Maestria/EDA/Proyect1/Mux/Mux.vhd EN work/Mux 1657988056
