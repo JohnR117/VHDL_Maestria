@@ -1,5 +1,5 @@
 ISim log file
-Running: D:\Maestria\EDA\VHDL_Maestria\Proyect1\Especific_Output\TB_Especific_Output_isim_beh.exe -gui -tclbatch isim.cmd -wdb D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/TB_Especific_Output_isim_beh.wdb 
+Running: D:\Maestria\EDA\VHDL_Maestria\Proyect1\Especific_Output\TB_Especific_Output2_isim_beh.exe -gui -tclbatch isim.cmd -wdb D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/TB_Especific_Output2_isim_beh.wdb 
 ISim M.81d (signature 0xcb73ee62)
 This is a Full version of ISim.
 Time resolution is 1 ps

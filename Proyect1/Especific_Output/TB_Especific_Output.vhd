@@ -43,7 +43,8 @@ ARCHITECTURE behavior OF TB_Especific_Output IS
     PORT(
          CLK : IN  std_logic;
          RESET : IN  std_logic;
-         OUT_X : OUT  std_logic
+         OUT_X : out  STD_LOGIC;
+         thresh : out  STD_LOGIC
         );
     END COMPONENT;
     
@@ -54,6 +55,8 @@ ARCHITECTURE behavior OF TB_Especific_Output IS
 
  	--Outputs
    signal OUT_X : std_logic := '0';
+   signal thresh: STD_LOGIC := '0';
+   signal accumulate_out: STD_LOGIC_VECTOR(2 downto 0) := "000";   
 
    -- Clock period definitions
    constant CLK_period : time := 10 ns;

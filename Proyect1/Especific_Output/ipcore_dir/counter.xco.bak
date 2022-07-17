@@ -1,40 +1,16 @@
 ##############################################################
-#
-# Xilinx Core Generator version 12.4
-# Date: Sun Jul 17 14:31:22 2022
-#
 ##############################################################
-#
-#  This file contains the customisation parameters for a
-#  Xilinx CORE Generator IP GUI. It is strongly recommended
-#  that you do not manually alter this file as it may cause
-#  unexpected and unsupported behavior.
-#
 ##############################################################
-#
-# BEGIN Project Options
-SET addpads = false
-SET asysymbol = true
-SET busformat = BusFormatAngleBracketNotRipped
-SET createndf = false
-SET designentry = Advanced
-SET device = xc3s500e
+SET designentry = VHDL
+SET BusFormat = BusFormatAngleBracketNotRipped
 SET devicefamily = spartan3e
-SET flowvendor = Foundation_ISE
-SET formalverification = false
-SET foundationsym = false
-SET implementationfiletype = Ngc
+SET device = xc3s500e
 SET package = ft256
-SET removerpms = false
-SET simulationfiles = Behavioral
 SET speedgrade = -5
-SET verilogsim = true
-SET vhdlsim = true
-# END Project Options
-# BEGIN Select
+SET FlowVendor = Foundation_ISE
+SET VerilogSim = True
+SET VHDLSim = True
 SELECT Binary_Counter family Xilinx,_Inc. 11.0
-# END Select
-# BEGIN Parameters
 CSET ainit_value=0
 CSET ce=false
 CSET component_name=counter
@@ -58,6 +34,3 @@ CSET sync_ce_priority=Sync_Overrides_CE
 CSET sync_threshold_output=true
 CSET syncctrlpriority=Reset_Overrides_Set
 CSET threshold_value=7A120
-# END Parameters
-GENERATE
-# CRC: e5014531

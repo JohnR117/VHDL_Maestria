@@ -7,7 +7,7 @@
 // \   \   \/     Version: M.81d
 //  \   \         Application: netgen
 //  /   /         Filename: counter.v
-// /___/   /\     Timestamp: Sun Jul 17 16:31:15 2022
+// /___/   /\     Timestamp: Sun Jul 17 21:23:07 2022
 // \   \  /  \ 
 //  \___\/\___\
 //             
@@ -42,35 +42,49 @@ module counter (
   
   // synthesis translate_off
   
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux_rt_81 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[2].carrymux_rt_79 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[3].carrymux_rt_77 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[4].carrymux_rt_75 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[5].carrymux_rt_73 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[6].carrymux_rt_71 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[7].carrymux_rt_69 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[8].carrymux_rt_67 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[9].carrymux_rt_65 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[10].carrymux_rt_63 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[11].carrymux_rt_61 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[12].carrymux_rt_59 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[13].carrymux_rt_57 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[14].carrymux_rt_55 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[15].carrymux_rt_53 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[16].carrymux_rt_51 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[17].carrymux_rt_49 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[18].carrymux_rt_46 ;
-  wire \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<4> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<3> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<4> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<2> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<3> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<1> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<2> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<0> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<1> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<2>_rt_97 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<3>_rt_95 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<4>_rt_93 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<5>_rt_91 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<6>_rt_89 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<7>_rt_87 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<8>_rt_85 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<9>_rt_83 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<10>_rt_81 ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q<10> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<10> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<9> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<8> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<7> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<6> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<5> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<4> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<3> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<2> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<1> ;
+  wire \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<0> ;
   wire \BU2/N1 ;
   wire \BU2/N0 ;
   wire NLW_VCC_P_UNCONNECTED;
   wire NLW_GND_G_UNCONNECTED;
   wire [19 : 0] NlwRenamedSig_OI_q;
-  wire [4 : 0] \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut ;
-  wire [3 : 0] \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy ;
-  wire [0 : 0] \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/halfsum ;
-  wire [18 : 0] \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple ;
-  wire [19 : 0] \BU2/U0/i_baseblox.i_baseblox_counter/q_next ;
+  wire [1 : 1] \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_lut ;
+  wire [10 : 1] \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy ;
+  wire [0 : 0] \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_lut ;
+  wire [10 : 1] \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 ;
+  wire [10 : 0] \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy ;
+  wire [10 : 1] \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 ;
+  wire [10 : 1] \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg ;
   assign
     q[19] = NlwRenamedSig_OI_q[19],
     q[18] = NlwRenamedSig_OI_q[18],
@@ -98,699 +112,710 @@ module counter (
   GND   GND_1 (
     .G(NLW_GND_G_UNCONNECTED)
   );
-  INV   \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/halfsum_not00001_INV_0  (
-    .I(NlwRenamedSig_OI_q[0]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/halfsum [0])
+  INV   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_lut<1>_INV_0  (
+    .I(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<0> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_lut [1])
+  );
+  LUT2 #(
+    .INIT ( 4'h4 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_lut<0>  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<10> ),
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_lut [0])
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[1]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux_rt_81 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<2>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<1> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<2>_rt_97 )
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[2].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[2]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[2].carrymux_rt_79 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<3>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<2> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<3>_rt_95 )
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[3].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[3]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[3].carrymux_rt_77 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<4>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<3> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<4>_rt_93 )
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[4].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[4]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[4].carrymux_rt_75 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<5>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<4> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<5>_rt_91 )
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[5].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[5]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[5].carrymux_rt_73 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<6>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<5> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<6>_rt_89 )
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[6].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[6]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[6].carrymux_rt_71 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<7>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<6> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<7>_rt_87 )
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[7].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[7]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[7].carrymux_rt_69 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<8>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<7> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<8>_rt_85 )
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[8].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[8]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[8].carrymux_rt_67 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<9>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<8> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<9>_rt_83 )
   );
   LUT1 #(
     .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[9].carrymux_rt  (
-    .I0(NlwRenamedSig_OI_q[9]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[9].carrymux_rt_65 )
-
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<10>_rt  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<9> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<10>_rt_81 )
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[10].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<1>1  (
     .I0(NlwRenamedSig_OI_q[10]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[10].carrymux_rt_63 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [1])
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[11].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<2>1  (
     .I0(NlwRenamedSig_OI_q[11]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[11].carrymux_rt_61 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [2])
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[12].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<3>1  (
     .I0(NlwRenamedSig_OI_q[12]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[12].carrymux_rt_59 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [3])
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[13].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<4>1  (
     .I0(NlwRenamedSig_OI_q[13]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[13].carrymux_rt_57 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [4])
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[14].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<5>1  (
     .I0(NlwRenamedSig_OI_q[14]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[14].carrymux_rt_55 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [5])
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[15].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<6>1  (
     .I0(NlwRenamedSig_OI_q[15]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[15].carrymux_rt_53 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [6])
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[16].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<7>1  (
     .I0(NlwRenamedSig_OI_q[16]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[16].carrymux_rt_51 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [7])
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[17].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<8>1  (
     .I0(NlwRenamedSig_OI_q[17]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[17].carrymux_rt_49 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [8])
   );
-  LUT1 #(
-    .INIT ( 2'h2 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[18].carrymux_rt  (
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<9>1  (
     .I0(NlwRenamedSig_OI_q[18]),
-    .O
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[18].carrymux_rt_46 )
-
+    .I1(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [9])
   );
-  MUXCY   \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<4>  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy [3]),
-    .DI(\BU2/N0 ),
-    .S(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [4]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i )
-  );
-  LUT4 #(
-    .INIT ( 16'h0001 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut<4>  (
-    .I0(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [0]),
-    .I1(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [1]),
-    .I2(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [2]),
-    .I3(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [19]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [4])
-  );
-  MUXCY   \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<3>  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy [2]),
-    .DI(\BU2/N0 ),
-    .S(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [3]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy [3])
+  LUT2 #(
+    .INIT ( 4'h8 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10<10>1  (
+    .I0(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .I1(NlwRenamedSig_OI_q[19]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [10])
   );
   LUT4 #(
-    .INIT ( 16'h1000 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut<3>  (
-    .I0(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [3]),
-    .I1(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [4]),
-    .I2(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [5]),
-    .I3(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [18]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [3])
-  );
-  MUXCY   \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<2>  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy [1]),
-    .DI(\BU2/N0 ),
-    .S(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [2]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy [2])
+    .INIT ( 16'h0800 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o_4_not00001  (
+    .I0(NlwRenamedSig_OI_q[17]),
+    .I1(NlwRenamedSig_OI_q[16]),
+    .I2(NlwRenamedSig_OI_q[19]),
+    .I3(NlwRenamedSig_OI_q[18]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<4> )
   );
   LUT4 #(
-    .INIT ( 16'h1000 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut<2>  (
-    .I0(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [6]),
-    .I1(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [7]),
-    .I2(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [8]),
-    .I3(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [17]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [2])
-  );
-  MUXCY   \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<1>  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy [0]),
-    .DI(\BU2/N0 ),
-    .S(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [1]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy [1])
+    .INIT ( 16'h0020 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o_3_not00001  (
+    .I0(NlwRenamedSig_OI_q[13]),
+    .I1(NlwRenamedSig_OI_q[12]),
+    .I2(NlwRenamedSig_OI_q[15]),
+    .I3(NlwRenamedSig_OI_q[14]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<3> )
   );
   LUT4 #(
-    .INIT ( 16'h0100 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut<1>  (
-    .I0(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [9]),
-    .I1(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [10]),
-    .I2(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [11]),
-    .I3(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [16]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [1])
+    .INIT ( 16'h0004 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o_2_not00001  (
+    .I0(NlwRenamedSig_OI_q[9]),
+    .I1(NlwRenamedSig_OI_q[8]),
+    .I2(NlwRenamedSig_OI_q[11]),
+    .I3(NlwRenamedSig_OI_q[10]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<2> )
   );
-  MUXCY   \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<0>  (
+  LUT4 #(
+    .INIT ( 16'h0004 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o_1_not00001  (
+    .I0(NlwRenamedSig_OI_q[5]),
+    .I1(NlwRenamedSig_OI_q[4]),
+    .I2(NlwRenamedSig_OI_q[7]),
+    .I3(NlwRenamedSig_OI_q[6]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<1> )
+  );
+  LUT4 #(
+    .INIT ( 16'h8000 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o_0_not00001  (
+    .I0(NlwRenamedSig_OI_q[1]),
+    .I1(NlwRenamedSig_OI_q[0]),
+    .I2(NlwRenamedSig_OI_q[3]),
+    .I3(NlwRenamedSig_OI_q[2]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<0> )
+  );
+  MUXCY 
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/opt_carry_tile.and_or.carry_muxs[4].i_mux  (
     .CI(\BU2/N1 ),
     .DI(\BU2/N0 ),
-    .S(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [0]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy [0])
-  );
-  LUT4 #(
-    .INIT ( 16'h0400 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut<0>  (
-    .I0(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [12]),
-    .I1(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [13]),
-    .I2(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [14]),
-    .I3(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [15]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut [0])
-  );
-  MUXCY   \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_need_mux.carrymux0  (
-    .CI(\BU2/N0 ),
-    .DI(\BU2/N1 ),
-    .S(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/halfsum [0]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [0])
-  );
-  XORCY   \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.carryxor0  (
-    .CI(\BU2/N0 ),
-    .LI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/halfsum [0]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [0])
-  );
-  XORCY   \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carryxortop  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [18]),
-    .LI(NlwRenamedSig_OI_q[19]),
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [19])
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<4> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<4> )
   );
   MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [0]),
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/opt_carry_tile.and_or.carry_muxs[3].i_mux  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<4> ),
     .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux_rt_81 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [1])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [0]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux_rt_81 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [1])
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<3> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<3> )
   );
   MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[2].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [1]),
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/opt_carry_tile.and_or.carry_muxs[2].i_mux  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<3> ),
     .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[2].carrymux_rt_79 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [2])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[2].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [1]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[2].carrymux_rt_79 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [2])
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<2> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<2> )
   );
   MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[3].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [2]),
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/opt_carry_tile.and_or.carry_muxs[1].i_mux  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<2> ),
     .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[3].carrymux_rt_77 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [3])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[3].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [2]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[3].carrymux_rt_77 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [3])
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<1> ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<1> )
   );
   MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[4].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [3]),
+  \BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/opt_carry_tile.and_or.carry_muxs[0].i_mux  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/async_o<1> ),
     .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[4].carrymux_rt_75 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [4])
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_thresh_detect.i_norm.i_gate/tier_gen[1].i_tier/loop_tiles[0].i_tile/lut_o<0> ),
+    .O(thresh0)
   );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[4].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [3]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[4].carrymux_rt_75 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [4])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[5].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [4]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[5].carrymux_rt_73 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [5])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[5].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [4]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[5].carrymux_rt_73 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [5])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[6].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [5]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[6].carrymux_rt_71 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [6])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[6].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [5]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[6].carrymux_rt_71 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [6])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[7].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [6]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[7].carrymux_rt_69 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [7])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[7].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [6]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[7].carrymux_rt_69 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [7])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[8].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [7]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[8].carrymux_rt_67 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [8])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[8].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [7]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[8].carrymux_rt_67 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [8])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[9].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [8]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[9].carrymux_rt_65 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [9])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[9].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [8]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[9].carrymux_rt_65 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [9])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[10].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [9]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[10].carrymux_rt_63 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [10])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[10].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [9]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[10].carrymux_rt_63 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [10])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[11].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [10]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[11].carrymux_rt_61 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [11])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[11].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [10]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[11].carrymux_rt_61 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [11])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[12].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [11]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[12].carrymux_rt_59 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [12])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[12].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [11]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[12].carrymux_rt_59 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [12])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[13].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [12]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[13].carrymux_rt_57 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [13])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[13].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [12]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[13].carrymux_rt_57 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [13])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[14].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [13]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[14].carrymux_rt_55 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [14])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[14].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [13]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[14].carrymux_rt_55 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [14])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[15].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [14]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[15].carrymux_rt_53 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [15])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[15].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [14]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[15].carrymux_rt_53 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [15])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[16].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [15]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[16].carrymux_rt_51 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [16])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[16].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [15]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[16].carrymux_rt_51 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [16])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[17].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [16]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[17].carrymux_rt_49 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [17])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[17].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [16]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[17].carrymux_rt_49 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [17])
-  );
-  MUXCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[18].carrymux  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [17]),
-    .DI(\BU2/N0 ),
-    .S
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[18].carrymux_rt_46 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [18])
-  );
-  XORCY 
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[18].carryxor  (
-    .CI(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple [17]),
-    .LI
-(\BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[18].carrymux_rt_46 )
-,
-    .O(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [18])
-  );
-  FD #(
+  FDE #(
     .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_20  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [19]),
-    .Q(NlwRenamedSig_OI_q[19])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_19  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [18]),
-    .Q(NlwRenamedSig_OI_q[18])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_18  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [17]),
-    .Q(NlwRenamedSig_OI_q[17])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_17  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [16]),
-    .Q(NlwRenamedSig_OI_q[16])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_16  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [15]),
-    .Q(NlwRenamedSig_OI_q[15])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_15  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [14]),
-    .Q(NlwRenamedSig_OI_q[14])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_14  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [13]),
-    .Q(NlwRenamedSig_OI_q[13])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_13  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [12]),
-    .Q(NlwRenamedSig_OI_q[12])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_12  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [11]),
-    .Q(NlwRenamedSig_OI_q[11])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_11  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [10]),
-    .Q(NlwRenamedSig_OI_q[10])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_10  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [9]),
-    .Q(NlwRenamedSig_OI_q[9])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_9  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [8]),
-    .Q(NlwRenamedSig_OI_q[8])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_8  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [7]),
-    .Q(NlwRenamedSig_OI_q[7])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_7  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [6]),
-    .Q(NlwRenamedSig_OI_q[6])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_6  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [5]),
-    .Q(NlwRenamedSig_OI_q[5])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_5  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [4]),
-    .Q(NlwRenamedSig_OI_q[4])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_4  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [3]),
-    .Q(NlwRenamedSig_OI_q[3])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_3  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [2]),
-    .Q(NlwRenamedSig_OI_q[2])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_2  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [1]),
-    .Q(NlwRenamedSig_OI_q[1])
-  );
-  FD #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_1  (
-    .C(clk),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/q_next [0]),
-    .Q(NlwRenamedSig_OI_q[0])
-  );
-  FDRE #(
-    .INIT ( 1'b0 ))
-  \BU2/U0/i_baseblox.i_baseblox_counter/q_thresh0_i  (
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q_0  (
     .C(clk),
     .CE(\BU2/N1 ),
-    .D(\BU2/U0/i_baseblox.i_baseblox_counter/thresh0_i ),
-    .R(\BU2/N0 ),
-    .Q(thresh0)
+    .D(\BU2/N1 ),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q )
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<1>  (
+    .CI(\BU2/N0 ),
+    .DI(\BU2/N1 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_lut [1]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [1])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<1>  (
+    .CI(\BU2/N0 ),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_lut [1]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [1])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<2>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [1]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<2>_rt_97 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [2])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<2>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [1]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<2>_rt_97 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [2])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<3>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [2]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<3>_rt_95 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [3])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<3>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [2]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<3>_rt_95 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [3])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<4>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [3]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<4>_rt_93 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [4])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<4>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [3]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<4>_rt_93 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [4])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<5>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [4]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<5>_rt_91 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [5])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<5>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [4]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<5>_rt_91 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [5])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<6>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [5]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<6>_rt_89 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [6])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<6>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [5]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<6>_rt_89 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [6])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<7>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [6]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<7>_rt_87 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [7])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<7>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [6]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<7>_rt_87 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [7])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<8>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [7]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<8>_rt_85 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [8])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<8>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [7]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<8>_rt_85 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [8])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<9>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [8]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<9>_rt_83 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [9])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<9>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [8]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<9>_rt_83 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [9])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<10>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [9]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<10>_rt_81 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [10])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_xor<10>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [9]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy<10>_rt_81 ),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [10])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<0>  (
+    .CI(\BU2/N0 ),
+    .DI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_piped.i_load_pipe/first_q ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_lut [0]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [0])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<1>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [0]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [1]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [1])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<1>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [0]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [1]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [1])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<2>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [1]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [2]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [2])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<2>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [1]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [2]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [2])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<3>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [2]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [3]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [3])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<3>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [2]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [3]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [3])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<4>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [3]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [4]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [4])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<4>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [3]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [4]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [4])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<5>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [4]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [5]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [5])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<5>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [4]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [5]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [5])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<6>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [5]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [6]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [6])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<6>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [5]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [6]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [6])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<7>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [6]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [7]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [7])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<7>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [6]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [7]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [7])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<8>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [7]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [8]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [8])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<8>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [7]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [8]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [8])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<9>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [8]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [9]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [9])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<9>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [8]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [9]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [9])
+  );
+  MUXCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy<10>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [9]),
+    .DI(\BU2/N0 ),
+    .S(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [10]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [10])
+  );
+  XORCY   \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_xor<10>  (
+    .CI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [9]),
+    .LI(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/op10 [10]),
+    .O(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [10])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_10  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg0_cy [10]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q<10> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_9  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [10]),
+    .Q(NlwRenamedSig_OI_q[19])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_8  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [9]),
+    .Q(NlwRenamedSig_OI_q[18])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_7  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [8]),
+    .Q(NlwRenamedSig_OI_q[17])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_6  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [7]),
+    .Q(NlwRenamedSig_OI_q[16])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_5  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [6]),
+    .Q(NlwRenamedSig_OI_q[15])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_4  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [5]),
+    .Q(NlwRenamedSig_OI_q[14])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_3  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [4]),
+    .Q(NlwRenamedSig_OI_q[13])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_2  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [3]),
+    .Q(NlwRenamedSig_OI_q[12])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_1  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [2]),
+    .Q(NlwRenamedSig_OI_q[11])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[2].i_sum_reg/first_q_0  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg0 [1]),
+    .Q(NlwRenamedSig_OI_q[10])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_10  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/Madd_sum_seg_cy [10]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<10> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_9  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [10]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<9> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_8  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [9]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<8> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_7  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [8]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<7> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_6  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [7]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<6> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_5  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [6]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<5> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_4  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [5]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<4> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_3  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [4]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<3> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_2  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [3]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<2> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_1  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [2]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<1> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q_0  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/sum_seg [1]),
+    .Q(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<0> )
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_9  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<9> ),
+    .Q(NlwRenamedSig_OI_q[9])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_8  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<8> ),
+    .Q(NlwRenamedSig_OI_q[8])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_7  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<7> ),
+    .Q(NlwRenamedSig_OI_q[7])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_6  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<6> ),
+    .Q(NlwRenamedSig_OI_q[6])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_5  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<5> ),
+    .Q(NlwRenamedSig_OI_q[5])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_4  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<4> ),
+    .Q(NlwRenamedSig_OI_q[4])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_3  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<3> ),
+    .Q(NlwRenamedSig_OI_q[3])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_2  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<2> ),
+    .Q(NlwRenamedSig_OI_q[2])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_1  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<1> ),
+    .Q(NlwRenamedSig_OI_q[1])
+  );
+  FDE #(
+    .INIT ( 1'b0 ))
+  \BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_pipe/first_q_0  (
+    .C(clk),
+    .CE(\BU2/N1 ),
+    .D(\BU2/U0/i_baseip.i_xbip_counter/i_fabric.i_fab/i_seg[1].i_sum_reg/first_q<0> ),
+    .Q(NlwRenamedSig_OI_q[0])
   );
   VCC   \BU2/XST_VCC  (
     .P(\BU2/N1 )

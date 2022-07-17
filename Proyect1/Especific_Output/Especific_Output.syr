@@ -4,13 +4,13 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Reading design: Especific_Output.prj
 
@@ -123,8 +123,8 @@ Analyzing hierarchy for entity <Especific_Output> in library <work> (architectur
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <Especific_Output> in library <work> (Architecture <behavioral>).
-WARNING:Xst:753 - "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd" line 51: Unconnected output port 'q' of component 'counter'.
-WARNING:Xst:2211 - "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd" line 51: Instantiating black box module <counter>.
+WARNING:Xst:753 - "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd" line 53: Unconnected output port 'q' of component 'counter'.
+WARNING:Xst:2211 - "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd" line 53: Instantiating black box module <counter>.
 Entity <Especific_Output> analyzed. Unit <Especific_Output> generated.
 
 
@@ -137,7 +137,9 @@ Performing bidirectional port resolution...
 Synthesizing Unit <Especific_Output>.
     Related source file is "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd".
     Found 1-bit register for signal <OUT_X>.
+    Found 3-bit up counter for signal <accumulate_out>.
     Summary:
+	inferred   1 Counter(s).
 	inferred   1 D-type flip-flop(s).
 Unit <Especific_Output> synthesized.
 
@@ -146,6 +148,8 @@ Unit <Especific_Output> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
 # Registers                                            : 1
  1-bit register                                        : 1
 
@@ -162,6 +166,8 @@ Loading core <counter> for timing and area information for instance <counter_10m
 Advanced HDL Synthesis Report
 
 Macro Statistics
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
 # Registers                                            : 1
  Flip-Flops                                            : 1
 
@@ -183,8 +189,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1
- Flip-Flops                                            : 1
+# Registers                                            : 4
+ Flip-Flops                                            : 4
 
 =========================================================================
 
@@ -210,25 +216,28 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 3
+# IOs                              : 4
 
 Cell Usage :
-# BELS                             : 71
+# BELS                             : 74
 #      GND                         : 1
-#      INV                         : 1
+#      INV                         : 2
 #      LUT1                        : 18
-#      LUT4                        : 5
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      LUT4                        : 6
 #      MUXCY                       : 24
-#      VCC                         : 2
+#      VCC                         : 1
 #      XORCY                       : 20
-# FlipFlops/Latches                : 22
+# FlipFlops/Latches                : 25
 #      FD                          : 20
-#      FDRE                        : 2
+#      FDR                         : 1
+#      FDRE                        : 4
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 2
+# IO Buffers                       : 3
 #      IBUF                        : 1
-#      OBUF                        : 1
+#      OBUF                        : 2
 =========================================================================
 
 Device utilization summary:
@@ -236,11 +245,11 @@ Device utilization summary:
 
 Selected Device : 3s500eft256-5 
 
- Number of Slices:                       12  out of   4656     0%  
- Number of Slice Flip Flops:             22  out of   9312     0%  
- Number of 4 input LUTs:                 24  out of   9312     0%  
- Number of IOs:                           3
- Number of bonded IOBs:                   3  out of    190     1%  
+ Number of Slices:                       17  out of   4656     0%  
+ Number of Slice Flip Flops:             25  out of   9312     0%  
+ Number of 4 input LUTs:                 28  out of   9312     0%  
+ Number of IOs:                           4
+ Number of bonded IOBs:                   4  out of    190     2%  
  Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
@@ -264,7 +273,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-CLK                                | BUFGP                  | 22    |
+CLK                                | BUFGP                  | 25    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -276,8 +285,8 @@ Timing Summary:
 Speed Grade: -5
 
    Minimum period: 5.517ns (Maximum Frequency: 181.243MHz)
-   Minimum input arrival time before clock: 2.258ns
-   Maximum output required time after clock: 4.040ns
+   Minimum input arrival time before clock: 2.400ns
+   Maximum output required time after clock: 4.182ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -287,7 +296,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
   Clock period: 5.517ns (frequency: 181.243MHz)
-  Total number of paths / destination ports: 421 / 22
+  Total number of paths / destination ports: 433 / 28
 -------------------------------------------------------------------------
 Delay:               5.517ns (Levels of Logic = 22)
   Source:            counter_10ms/BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_2 (FF)
@@ -329,9 +338,9 @@ Delay:               5.517ns (Levels of Logic = 22)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
-  Total number of paths / destination ports: 1 / 1
+  Total number of paths / destination ports: 4 / 4
 -------------------------------------------------------------------------
-Offset:              2.258ns (Levels of Logic = 1)
+Offset:              2.400ns (Levels of Logic = 1)
   Source:            RESET (PAD)
   Destination:       OUT_X (FF)
   Destination Clock: CLK rising
@@ -340,36 +349,38 @@ Offset:              2.258ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.106   0.357  RESET_IBUF (RESET_IBUF)
-     FDRE:R                    0.795          OUT_X
+     IBUF:I->O             4   1.106   0.499  RESET_IBUF (RESET_IBUF)
+     FDR:R                     0.795          OUT_X
     ----------------------------------------
-    Total                      2.258ns (1.901ns logic, 0.357ns route)
-                                       (84.2% logic, 15.8% route)
+    Total                      2.400ns (1.901ns logic, 0.499ns route)
+                                       (79.2% logic, 20.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
-  Total number of paths / destination ports: 1 / 1
+  Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
-Offset:              4.040ns (Levels of Logic = 1)
-  Source:            OUT_X (FF)
-  Destination:       OUT_X (PAD)
+Offset:              4.182ns (Levels of Logic = 2)
+  Source:            counter_10ms/BU2/U0/i_baseblox.i_baseblox_counter/q_thresh0_i (FF)
+  Destination:       TRH (PAD)
   Source Clock:      CLK rising
 
-  Data Path: OUT_X to OUT_X
+  Data Path: counter_10ms/BU2/U0/i_baseblox.i_baseblox_counter/q_thresh0_i to TRH
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             1   0.514   0.357  OUT_X (OUT_X_OBUF)
-     OBUF:I->O                 3.169          OUT_X_OBUF (OUT_X)
+     FDRE:C->Q             4   0.514   0.499  U0/i_baseblox.i_baseblox_counter/q_thresh0_i (thresh0)
+     end scope: 'BU2'
+     end scope: 'counter_10ms'
+     OBUF:I->O                 3.169          TRH_OBUF (TRH)
     ----------------------------------------
-    Total                      4.040ns (3.683ns logic, 0.357ns route)
-                                       (91.2% logic, 8.8% route)
+    Total                      4.182ns (3.683ns logic, 0.499ns route)
+                                       (88.1% logic, 11.9% route)
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 2.23 secs
+Total CPU time to Xst completion: 2.70 secs
  
 --> 
 

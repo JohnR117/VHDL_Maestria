@@ -1,3 +1,2 @@
 vhdl work "ipcore_dir/counter.vhd"
 vhdl work "Especific_Output.vhd"
-vhdl work "TB_Especific_Output.vhd"

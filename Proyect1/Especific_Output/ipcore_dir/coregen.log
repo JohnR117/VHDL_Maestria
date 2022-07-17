@@ -6,7 +6,6 @@ ERROR:coreutil:338 - Unable to access property ARCH_SUPPORT_MAP for IP
    chipscope_ibert_spartan6_gtp_v2_01_a
    Cannot find option ARCH_SUPPORT_MAP
 
-Wrote file for project 'coregen'.
 Project, 'coregen', initialised from file
 'D:\Maestria\EDA\VHDL_Maestria\Proyect1\Especific_Output\ipcore_dir\coregen.cgp'
 .
@@ -16,4 +15,44 @@ Release 12.4 - Xilinx CORE Generator IP GUI Launcher M.81d (nt)
 Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Initializing IP model...
 Finished initialising IP model.
-Cancelled Customization.
+WARNING:coreutil - WARNING:sim:254 - Unable to launch pdf viewerFinished Customizing.
+Generating IP...
+WARNING:sim:472 - The chosen IP does not support a Verilog behavioral model,
+   generating a Verilog structural model instead.
+WARNING:sim:89 - A core named <counter> already exists in the output directory.
+   Output products for this core may be overwritten.
+Initializing IP model...
+Finished initialising IP model.
+XST: HDL Compilation
+XST: Design Hierarchy Analysis
+XST: HDL Analysis
+XST: HDL Synthesis
+XST: Advanced HDL Synthesis
+XST: Low Level Synthesis
+XST: Partition Report
+XST: Final Report
+Generating Implementation files.
+Generating ISE symbol file...
+Generating NGC file.
+Generating Verilog structural model.
+Finished Generation Stage.
+Generating IP instantiation template...
+VHDL instantiation template already present, so not regenerating.
+Finished generating IP instantiation template.
+Generating metadata file...
+Finished generating metadata file.
+Generating metadata file...
+Finished generating metadata file.
+Generating ISE file...
+Finished ISE file generation.
+Creating readme './tmp/_cg\counter_readme.txt'.
+Generating FLIST file...
+Finished FLIST file generation.
+Preparing output directory...
+Finished preparing output directory.
+Launching readme viewer...
+Launched readme viewer.
+Moving files to output directory...
+Finished moving files to output directory
+Saved options for project 'coregen'.
+Wrote file for project 'coregen'.

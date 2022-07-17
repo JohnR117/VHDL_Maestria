@@ -88,7 +88,7 @@ end component;
 			c_width => 20,
 			c_verbosity => 0,
 			c_has_load => 0,
-			c_latency => 1,
+			c_latency => 2,
 			c_has_thresh0 => 1,
 			c_ainit_val => "0",
 			c_has_ce => 0,
@@ -99,7 +99,7 @@ end component;
 			c_has_sinit => 0,
 			c_count_by => "1",
 			c_xdevicefamily => "spartan3e",
-			c_thresh0_value => "1111010000100100000");
+			c_thresh0_value => "1111010000100011111");
 -- synthesis translate_on
 BEGIN
 -- synthesis translate_off
