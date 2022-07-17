@@ -1,0 +1,5 @@
+set -tmpdir "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/xst/projnav.tmp"
+set -xsthdpdir "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/xst"
+elaborate
+-ifn Especific_Output.prj
+-ifmt mixed

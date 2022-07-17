@@ -1,0 +1,381 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: Especific_Output.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Especific_Output.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Especific_Output"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-ft256
+
+---- Source Options
+Top Module Name                    : Especific_Output
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/ipcore_dir/counter.vhd" in Library work.
+Architecture counter_a of Entity counter is up to date.
+Compiling vhdl file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd" in Library work.
+Entity <especific_output> compiled.
+Entity <especific_output> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Especific_Output> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Especific_Output> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd" line 51: Unconnected output port 'q' of component 'counter'.
+WARNING:Xst:2211 - "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd" line 51: Instantiating black box module <counter>.
+Entity <Especific_Output> analyzed. Unit <Especific_Output> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Especific_Output>.
+    Related source file is "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd".
+    Found 1-bit register for signal <OUT_X>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Especific_Output> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 1-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/counter.ngc>.
+Loading core <counter> for timing and area information for instance <counter_10ms>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Especific_Output> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Especific_Output, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Especific_Output.ngr
+Top Level Output File Name         : Especific_Output
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+# BELS                             : 71
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 18
+#      LUT4                        : 5
+#      MUXCY                       : 24
+#      VCC                         : 2
+#      XORCY                       : 20
+# FlipFlops/Latches                : 22
+#      FD                          : 20
+#      FDRE                        : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-5 
+
+ Number of Slices:                       12  out of   4656     0%  
+ Number of Slice Flip Flops:             22  out of   9312     0%  
+ Number of 4 input LUTs:                 24  out of   9312     0%  
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    190     1%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 22    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.517ns (Maximum Frequency: 181.243MHz)
+   Minimum input arrival time before clock: 2.258ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.517ns (frequency: 181.243MHz)
+  Total number of paths / destination ports: 421 / 22
+-------------------------------------------------------------------------
+Delay:               5.517ns (Levels of Logic = 22)
+  Source:            counter_10ms/BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_2 (FF)
+  Destination:       counter_10ms/BU2/U0/i_baseblox.i_baseblox_counter/q_thresh0_i (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: counter_10ms/BU2/U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_2 to counter_10ms/BU2/U0/i_baseblox.i_baseblox_counter/q_thresh0_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.509  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_q.i_simple.qreg/fd/output_2 (q(1))
+     LUT1:I0->O            1   0.612   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux_rt (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux_rt)
+     MUXCY:S->O            1   0.404   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[1].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<1>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[2].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<2>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[3].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<3>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[4].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<4>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[5].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<5>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[6].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<6>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[7].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<7>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[8].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<8>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[9].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<9>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[10].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<10>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[11].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<11>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[12].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<12>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[13].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<13>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[14].carrymux (U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/carry_simple<14>)
+     XORCY:CI->O           2   0.699   0.383  U0/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut4.i_lut4_addsub/i_simple_model.i_gt_1.carrychaingen[15].carryxor (U0/i_baseblox.i_baseblox_counter/q_next<15>)
+     LUT4:I3->O            1   0.612   0.000  U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut<0> (U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<0> (U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<1> (U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<2> (U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<3> (U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.289   0.000  U0/i_baseblox.i_baseblox_counter/thresh0_i_cmp_eq0000_wg_cy<4> (U0/i_baseblox.i_baseblox_counter/thresh0_i)
+     FDRE:D                    0.268          U0/i_baseblox.i_baseblox_counter/q_thresh0_i
+    ----------------------------------------
+    Total                      5.517ns (4.626ns logic, 0.892ns route)
+                                       (83.8% logic, 16.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.258ns (Levels of Logic = 1)
+  Source:            RESET (PAD)
+  Destination:       OUT_X (FF)
+  Destination Clock: CLK rising
+
+  Data Path: RESET to OUT_X
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  RESET_IBUF (RESET_IBUF)
+     FDRE:R                    0.795          OUT_X
+    ----------------------------------------
+    Total                      2.258ns (1.901ns logic, 0.357ns route)
+                                       (84.2% logic, 15.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            OUT_X (FF)
+  Destination:       OUT_X (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: OUT_X to OUT_X
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.514   0.357  OUT_X (OUT_X_OBUF)
+     OBUF:I->O                 3.169          OUT_X_OBUF (OUT_X)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.23 secs
+ 
+--> 
+
+Total memory usage is 215080 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,19 @@
+ERROR:coreutil:338 - Unable to access property ARCH_SUPPORT_MAP for IP
+   agilent_atc2_v1_02_a
+   Cannot find option ARCH_SUPPORT_MAP
+
+ERROR:coreutil:338 - Unable to access property ARCH_SUPPORT_MAP for IP
+   chipscope_ibert_spartan6_gtp_v2_01_a
+   Cannot find option ARCH_SUPPORT_MAP
+
+Wrote file for project 'coregen'.
+Project, 'coregen', initialised from file
+'D:\Maestria\EDA\VHDL_Maestria\Proyect1\Especific_Output\ipcore_dir\coregen.cgp'
+.
+Customizing IP...
+Qt: Untested Windows version 6.2 detected!
+Release 12.4 - Xilinx CORE Generator IP GUI Launcher M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Initializing IP model...
+Finished initialising IP model.
+Cancelled Customization.

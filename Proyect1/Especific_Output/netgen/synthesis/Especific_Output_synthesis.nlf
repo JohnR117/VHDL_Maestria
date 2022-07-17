@@ -1,0 +1,21 @@
+Release 12.4 - netgen M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -ar Structure -tm Especific_Output -w -dir
+netgen/synthesis -ofmt vhdl -sim Especific_Output.ngc
+Especific_Output_synthesis.vhd  
+
+Reading design 'Especific_Output.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist
+'D:\Maestria\EDA\VHDL_Maestria\Proyect1\Especific_Output\netgen\synthesis\Especi
+fic_Output_synthesis.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 133172 kilobytes
