@@ -8,8 +8,8 @@ Parsing VHDL file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Espec
 Parsing VHDL file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/TB_Especific_Output2.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 152056 KB
-Fuse CPU Usage: 187 ms
+Fuse Memory Usage: 151608 KB
+Fuse CPU Usage: 155 ms
 Using precompiled package standard from library std
 Using precompiled package std_logic_1164 from library ieee
 Using precompiled package std_logic_arith from library ieee
@@ -20,23 +20,22 @@ Compiling package bip_utils_pkg_v2_0
 Compiling package xbip_counter_v2_0_pkg
 Compiling package c_counter_binary_v11_0_pkg
 Compiling package xbip_counter_v2_0_xst_comp
-Compiling package bip_usecase_utils_pkg_v2_0
-Compiling package c_addsub_pkg_v11_0
-Compiling package c_compare_v11_0_comp
-Compiling package c_mux_bus_v11_0_comp
-Compiling package c_reg_fd_v11_0_comp
-Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(20,"0","0",1,0,0...]
-Compiling architecture behavioral of entity c_addsub_v11_0_legacy [\c_addsub_v11_0_legacy(20,20,20,...]
-Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(1,"0","0",1,0,0,...]
-Compiling architecture behavioral of entity c_compare_v11_0 [\c_compare_v11_0(20,"0",1,1,"111...]
-Compiling architecture behavioral of entity c_counter_binary_v11_0_legacy [\c_counter_binary_v11_0_legacy("...]
+Compiling package xbip_counter_v2_0_comp
+Compiling package xbip_pipe_v2_0_xst_comp
+Compiling package xbip_pipe_v2_0_comp
+Compiling architecture behavioral of entity xbip_pipe_v2_0 [\xbip_pipe_v2_0(1,1,0,0,0,0,0,"0...]
+Compiling architecture behavioral of entity xbip_pipe_v2_0_xst [\xbip_pipe_v2_0_xst(1,1,0,0,0,0,...]
+Compiling architecture behavioral of entity xbip_pipe_v2_0 [\xbip_pipe_v2_0(0,1,0,0,0,0,0,"0...]
+Compiling architecture behavioral of entity xbip_pipe_v2_0_xst [\xbip_pipe_v2_0_xst(0,1,0,0,0,0,...]
+Compiling architecture behavioral of entity xbip_counter_v2_0 [\xbip_counter_v2_0("spartan3e",0...]
+Compiling architecture behavioral of entity xbip_counter_v2_0_xst [\xbip_counter_v2_0_xst("spartan3...]
 Compiling architecture behavioral of entity c_counter_binary_v11_0 [\c_counter_binary_v11_0(0,0,"spa...]
 Compiling architecture counter_a of entity counter [counter_default]
 Compiling architecture behavioral of entity especific_output [especific_output_default]
 Compiling architecture behavior of entity tb_especific_output2
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 32 VHDL Units
 Built simulation executable D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/TB_Especific_Output2_isim_beh.exe
-Fuse Memory Usage: 182620 KB
-Fuse CPU Usage: 390 ms
+Fuse Memory Usage: 178844 KB
+Fuse CPU Usage: 342 ms

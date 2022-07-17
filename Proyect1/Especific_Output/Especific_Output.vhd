@@ -64,7 +64,6 @@ begin
    if (CLK'event and CLK = '1') then
       if RESET = '1' then
          accumulate_out <= "00000000"; 
-         --thresh0_signal <= '0';
       else
          if (thresh0_signal = '1') then
              accumulate_out <= accumulate_out + 1;                                       
@@ -78,9 +77,10 @@ begin
    if (CLK'event and CLK = '1') then
       if RESET = '1' then
             OUT_X <= '0';
-            --accumulate_out <= "00000000"; 
       else
-         if    (accumulate_out = "00000001") then
+         if    (accumulate_out = "00000000") then
+            OUT_X <= '0';       
+         elsif (accumulate_out = "00000001") then
             OUT_X <= '1';                                        
          elsif (accumulate_out = "00000100") then
             OUT_X <= '0';

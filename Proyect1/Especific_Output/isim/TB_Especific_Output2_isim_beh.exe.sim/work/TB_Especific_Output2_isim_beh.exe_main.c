@@ -23,12 +23,10 @@ char *IEEE_P_3620187407;
 char *XILINXCORELIB_P_2147798235;
 char *XILINXCORELIB_P_0914797037;
 char *XILINXCORELIB_P_0558180590;
-char *XILINXCORELIB_P_3381355550;
 char *IEEE_P_1242562249;
-char *XILINXCORELIB_P_1433929353;
-char *XILINXCORELIB_P_0661866964;
-char *XILINXCORELIB_P_3106367597;
-char *XILINXCORELIB_P_0624651749;
+char *XILINXCORELIB_P_3350621131;
+char *XILINXCORELIB_P_3155556343;
+char *XILINXCORELIB_P_3743709326;
 
 
 int main(int argc, char **argv)
@@ -46,17 +44,16 @@ int main(int argc, char **argv)
     xilinxcorelib_p_2147798235_init();
     xilinxcorelib_p_0914797037_init();
     xilinxcorelib_p_0558180590_init();
-    xilinxcorelib_p_3381355550_init();
-    xilinxcorelib_p_1433929353_init();
-    xilinxcorelib_p_0661866964_init();
-    xilinxcorelib_p_3106367597_init();
-    xilinxcorelib_p_0624651749_init();
-    xilinxcorelib_a_0734928851_3212880686_init();
-    xilinxcorelib_a_0641622896_3212880686_init();
-    xilinxcorelib_a_2282842213_3212880686_init();
-    xilinxcorelib_a_3898493975_3212880686_init();
-    xilinxcorelib_a_0407280304_3212880686_init();
-    xilinxcorelib_a_1420369215_3212880686_init();
+    xilinxcorelib_p_3350621131_init();
+    xilinxcorelib_p_3155556343_init();
+    xilinxcorelib_p_3743709326_init();
+    xilinxcorelib_a_2160085958_3212880686_init();
+    xilinxcorelib_a_1597072217_3212880686_init();
+    xilinxcorelib_a_2954457130_3212880686_init();
+    xilinxcorelib_a_1434960732_3212880686_init();
+    xilinxcorelib_a_0200650157_3212880686_init();
+    xilinxcorelib_a_2161729643_3212880686_init();
+    xilinxcorelib_a_4207438795_3212880686_init();
     work_a_4000226436_0476169694_init();
     work_a_0119734192_3212880686_init();
     work_a_3352407462_2372691052_init();
@@ -74,12 +71,10 @@ int main(int argc, char **argv)
     XILINXCORELIB_P_2147798235 = xsi_get_engine_memory("xilinxcorelib_p_2147798235");
     XILINXCORELIB_P_0914797037 = xsi_get_engine_memory("xilinxcorelib_p_0914797037");
     XILINXCORELIB_P_0558180590 = xsi_get_engine_memory("xilinxcorelib_p_0558180590");
-    XILINXCORELIB_P_3381355550 = xsi_get_engine_memory("xilinxcorelib_p_3381355550");
     IEEE_P_1242562249 = xsi_get_engine_memory("ieee_p_1242562249");
-    XILINXCORELIB_P_1433929353 = xsi_get_engine_memory("xilinxcorelib_p_1433929353");
-    XILINXCORELIB_P_0661866964 = xsi_get_engine_memory("xilinxcorelib_p_0661866964");
-    XILINXCORELIB_P_3106367597 = xsi_get_engine_memory("xilinxcorelib_p_3106367597");
-    XILINXCORELIB_P_0624651749 = xsi_get_engine_memory("xilinxcorelib_p_0624651749");
+    XILINXCORELIB_P_3350621131 = xsi_get_engine_memory("xilinxcorelib_p_3350621131");
+    XILINXCORELIB_P_3155556343 = xsi_get_engine_memory("xilinxcorelib_p_3155556343");
+    XILINXCORELIB_P_3743709326 = xsi_get_engine_memory("xilinxcorelib_p_3743709326");
 
     return xsi_run_simulation(argc, argv);
 

@@ -17,3 +17,14 @@ ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-ft25
 map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Especific_Output_map.ncd Especific_Output.ngd Especific_Output.pcf 
 par -w -intstyle ise -ol high -t 1 Especific_Output_map.ncd Especific_Output.ncd Especific_Output.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Especific_Output.twx Especific_Output.ncd -o Especific_Output.twr Especific_Output.pcf 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.syr" 
+netgen -intstyle ise -ar Structure -tm Especific_Output -w -dir netgen/synthesis -ofmt vhdl -sim Especific_Output.ngc Especific_Output_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-ft256-5 Especific_Output.ngc Especific_Output.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Especific_Output_map.ncd Especific_Output.ngd Especific_Output.pcf 
+par -w -intstyle ise -ol high -t 1 Especific_Output_map.ncd Especific_Output.ncd Especific_Output.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Especific_Output.twx Especific_Output.ncd -o Especific_Output.twr Especific_Output.pcf 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-ft256-5 Especific_Output.ngc Especific_Output.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Especific_Output_map.ncd Especific_Output.ngd Especific_Output.pcf 
+par -w -intstyle ise -ol high -t 1 Especific_Output_map.ncd Especific_Output.ncd Especific_Output.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Especific_Output.twx Especific_Output.ncd -o Especific_Output.twr Especific_Output.pcf 

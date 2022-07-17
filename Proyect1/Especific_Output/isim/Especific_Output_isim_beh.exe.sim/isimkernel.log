@@ -2,27 +2,27 @@ Command line:
    Especific_Output_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  50792
+     -socket  65313
 
-Sun Jul 17 19:49:04 2022
+Sun Jul 17 21:27:24 2022
 
 
- Elaboration Time: 0.078125 sec
+ Elaboration Time: 0.046875 sec
 
- Current Memory Usage: 831.562 Meg
+ Current Memory Usage: 831.689 Meg
 
- Total Signals          : 295
- Total Nets             : 942
- Total Signal Drivers   : 140
- Total Blocks           : 126
- Total Primitive Blocks : 106
- Total Processes        : 127
- Total Traceable Variables  : 340
- Total Scalar Nets and Variables : 2392
+ Total Signals          : 94
+ Total Nets             : 234
+ Total Signal Drivers   : 17
+ Total Blocks           : 30
+ Total Primitive Blocks : 17
+ Total Processes        : 17
+ Total Traceable Variables  : 192
+ Total Scalar Nets and Variables : 1378
 
- Total Simulation Time: 0.140625 sec
+ Total Simulation Time: 0.0625 sec
 
- Current Memory Usage: 674.013 Meg
+ Current Memory Usage: 831.689 Meg
 
-Sun Jul 17 19:50:02 2022
+Sun Jul 17 21:27:43 2022
 

@@ -1,16 +1,16 @@
 V3 7
-FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd 2022/07/17.19:43:18 M.81d
-EN work/Especific_Output 1658080677 \
+FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd 2022/07/17.21:29:30 M.81d
+EN work/Especific_Output 1658086208 \
       FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd \
       PH IEEE/STD_LOGIC_1164 0 PH IEEE/STD_LOGIC_ARITH 0 \
       PH IEEE/STD_LOGIC_UNSIGNED 0
-AR work/Especific_Output/Behavioral 1658080678 \
+AR work/Especific_Output/Behavioral 1658086209 \
       FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/Especific_Output.vhd \
-      EN work/Especific_Output 1658080677 CP counter
-FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/ipcore_dir/counter.vhd 2022/07/17.16:31:04 M.81d
-EN work/counter 1658080675 \
+      EN work/Especific_Output 1658086208 CP counter
+FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/ipcore_dir/counter.vhd 2022/07/17.21:22:49 M.81d
+EN work/counter 1658086206 \
       FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/ipcore_dir/counter.vhd \
       PH IEEE/STD_LOGIC_1164 0
-AR work/counter/counter_a 1658080676 \
+AR work/counter/counter_a 1658086207 \
       FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/Especific_Output/ipcore_dir/counter.vhd \
-      EN work/counter 1658080675
+      EN work/counter 1658086206
