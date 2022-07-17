@@ -40,6 +40,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="CounterButton.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="CounterButton.twx" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="CounterButton.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="CounterButton.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="CounterButton.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CounterButton.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CounterButton_envsettings.html"/>
@@ -66,16 +67,22 @@
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Debounce.vhi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Debounce.xst"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="counterbutton.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="counterbutton.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="counterbutton.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
     <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/CounterButton_synthesis.nlf"/>
     <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/CounterButton_synthesis.vhd"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -103,7 +110,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1658091855" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3376162906604402365" xil_pn:start_ts="1658091855">
+    <transform xil_pn:end_ts="1658094515" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3903986937389826872" xil_pn:start_ts="1658094515">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -115,17 +122,19 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1658091855" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297157603645" xil_pn:start_ts="1658091855">
+    <transform xil_pn:end_ts="1658094515" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1658094515">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1658091855" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4029565853269998713" xil_pn:start_ts="1658091855">
+    <transform xil_pn:end_ts="1658094515" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7137028376445323666" xil_pn:start_ts="1658094515">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1658091860" xil_pn:in_ck="2828205213996912705" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4704771254985468782" xil_pn:start_ts="1658091855">
+    <transform xil_pn:end_ts="1658094519" xil_pn:in_ck="2828205213996912705" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2826920173498834439" xil_pn:start_ts="1658094515">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="CounterButton.lso"/>
       <outfile xil_pn:name="CounterButton.ngc"/>
@@ -141,30 +150,22 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1658091098" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7458380581567314548" xil_pn:start_ts="1658091098">
+    <transform xil_pn:end_ts="1658093180" xil_pn:in_ck="4894695907922790088" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7458380581567314548" xil_pn:start_ts="1658093180">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
     </transform>
-    <transform xil_pn:end_ts="1658092051" xil_pn:in_ck="4894695907922782594" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1088979024952793578" xil_pn:start_ts="1658092047">
+    <transform xil_pn:end_ts="1658094522" xil_pn:in_ck="5295927327261975690" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5733549221947502635" xil_pn:start_ts="1658094519">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="CounterButton.bld"/>
       <outfile xil_pn:name="CounterButton.ngd"/>
       <outfile xil_pn:name="CounterButton_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1658092063" xil_pn:in_ck="4894695907922782595" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-872484039588261087" xil_pn:start_ts="1658092051">
+    <transform xil_pn:end_ts="1658094527" xil_pn:in_ck="8187275701193410219" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1658094522">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="CounterButton.pcf"/>
       <outfile xil_pn:name="CounterButton_map.map"/>
       <outfile xil_pn:name="CounterButton_map.mrp"/>
@@ -175,12 +176,9 @@
       <outfile xil_pn:name="CounterButton_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1658092082" xil_pn:in_ck="-6525572772103486948" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1658092063">
+    <transform xil_pn:end_ts="1658094545" xil_pn:in_ck="5512320566717928932" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1658094527">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="CounterButton.ncd"/>
       <outfile xil_pn:name="CounterButton.pad"/>
       <outfile xil_pn:name="CounterButton.par"/>
@@ -192,19 +190,29 @@
       <outfile xil_pn:name="CounterButton_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
+    <transform xil_pn:end_ts="1658094647" xil_pn:in_ck="4894695907922782463" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1658094638">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CounterButton.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="counterbutton.bgn"/>
+      <outfile xil_pn:name="counterbutton.bit"/>
+      <outfile xil_pn:name="counterbutton.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
     <transform xil_pn:end_ts="1658092121" xil_pn:in_ck="4894695907922782463" xil_pn:name="TRAN_fpgaFloorplanPostPAR" xil_pn:start_ts="1658092107">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1658092082" xil_pn:in_ck="4894695907922782463" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1658092079">
+    <transform xil_pn:end_ts="1658094545" xil_pn:in_ck="-4535828183564915289" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1658094542">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="CounterButton.twr"/>
       <outfile xil_pn:name="CounterButton.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
@@ -212,7 +220,8 @@
     <transform xil_pn:end_ts="1658092043" xil_pn:in_ck="4894695907922782594" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-6237053913558301260" xil_pn:start_ts="1658092038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="netgen"/>
       <outfile xil_pn:name="netgen/synthesis/CounterButton_synthesis.nlf"/>
       <outfile xil_pn:name="netgen/synthesis/CounterButton_synthesis.vhd"/>

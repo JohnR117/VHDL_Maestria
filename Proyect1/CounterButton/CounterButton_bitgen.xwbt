@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Maestria\EDA\VHDL_Maestria\Proyect1\CounterButton\CounterButton.ncd
+OUTFILE=D:\Maestria\EDA\VHDL_Maestria\Proyect1\CounterButton\CounterButton.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=D:\Maestria\EDA\VHDL_Maestria\Proyect1\CounterButton
+LICENSE=WebPack
+USER_INFO=0_0_0
