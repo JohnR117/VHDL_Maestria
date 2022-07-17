@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="7">
+	<FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+		<Filter Type="Constrs"/>
+		<File Path="D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.ucf">
+		</File>
+		<Config>
+			<Option Name="TargetPart" Val="xc3s500eft256-5"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

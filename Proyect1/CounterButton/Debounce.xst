@@ -1,0 +1,5 @@
+set -tmpdir "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/xst/projnav.tmp"
+set -xsthdpdir "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/xst"
+elaborate
+-ifn Debounce.prj
+-ifmt mixed

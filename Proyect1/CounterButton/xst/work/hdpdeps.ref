@@ -1,0 +1,17 @@
+V3 7
+FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd 2022/07/17.23:24:42 M.81d
+EN work/CounterButton 1658093117 \
+      FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd \
+      PH IEEE/STD_LOGIC_1164 0 PH IEEE/STD_LOGIC_ARITH 0 \
+      PH IEEE/STD_LOGIC_UNSIGNED 0
+AR work/CounterButton/Behavioral 1658093118 \
+      FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd \
+      EN work/CounterButton 1658093117 CP Debounce
+FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd 2022/07/17.22:39:28 M.81d
+EN work/Debounce 1658093115 \
+      FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd \
+      PH IEEE/STD_LOGIC_1164 0 PH IEEE/STD_LOGIC_ARITH 0 \
+      PH IEEE/STD_LOGIC_UNSIGNED 0
+AR work/Debounce/Behavioral 1658093116 \
+      FL D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd \
+      EN work/Debounce 1658093115

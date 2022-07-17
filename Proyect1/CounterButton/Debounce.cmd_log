@@ -1,0 +1,3 @@
+vhdtdtfi -lib work Debounce.vhd -prj CounterButton -o Debounce.spl -module Debounce -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Debounce.spl D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.sym 
+vhdtdtfi -prj CounterButton -o D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhi -lib work D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton//Debounce.vhd -module Debounce -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

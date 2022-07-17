@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+netgen -intstyle ise -ar Structure -tm CounterButton -w -dir netgen/synthesis -ofmt vhdl -sim CounterButton.ngc CounterButton_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-5 CounterButton.ngc CounterButton.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o CounterButton_map.ncd CounterButton.ngd CounterButton.pcf 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+netgen -intstyle ise -ar Structure -tm CounterButton -w -dir netgen/synthesis -ofmt vhdl -sim CounterButton.ngc CounterButton_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-5 CounterButton.ngc CounterButton.ngd  
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+netgen -intstyle ise -ar Structure -tm CounterButton -w -dir netgen/synthesis -ofmt vhdl -sim CounterButton.ngc CounterButton_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-5 CounterButton.ngc CounterButton.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o CounterButton_map.ncd CounterButton.ngd CounterButton.pcf 
+par -w -intstyle ise -ol high -t 1 CounterButton_map.ncd CounterButton.ncd CounterButton.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CounterButton.twx CounterButton.ncd -o CounterButton.twr CounterButton.pcf 
+xst -intstyle ise -ifn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.xst" -ofn "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CounterButton.ucf -p xc3s500e-ft256-5 CounterButton.ngc CounterButton.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CounterButton.ucf -p xc3s500e-ft256-5 CounterButton.ngc CounterButton.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o CounterButton_map.ncd CounterButton.ngd CounterButton.pcf 

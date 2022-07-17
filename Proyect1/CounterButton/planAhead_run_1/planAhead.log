@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Sun Jul 17 23:09:01 2022
+# Process ID: 12580
+# Log file: D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/planAhead_run_1/planAhead.log
+# Journal file: D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/pa.fromNcd.tcl
+# create_project -name CounterButton -dir "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/planAhead_run_1" -part xc3s500eft256-5
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton} }
+# set_param project.paUcfFile  "CounterButton.ucf"
+# add_files "CounterButton.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Run is defaulting to constrset part: xc3s500eft256-5
+INFO: [HD-EDIFIN 0] Parsing Edif File '.\.HDI-PlanAhead-12580-DESKTOP-D1UER7B\ngc2edif\CounterButton.edif'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File '.\.HDI-PlanAhead-12580-DESKTOP-D1UER7B\ngc2edif\CounterButton.edif'
+INFO: [HD-ArchReader 18] Reading macro library C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\CounterButton.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\CounterButton.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.4 by hdbuild
+          on  Tue Nov  9 17:32:56 MST 2010
+  Report: by John_117 on host DESKTOP-D1UER7B, pid 12580
+          on Sun Jul 17 23:09:46 2022
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 0
+
+REPORT DETAILS
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib .
+# read_xdl -file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.ncd"
+INFO: [HD-PAR 0] Parsing Placement File : D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.ncd
+INFO: [HD-PAR 1] Finished Parsing Placement File : D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.ncd
+INFO: [HD-PAR 2] Placed 41 instances
+# if {[catch {read_twx -name results_1 -file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.twx\": $eInfo"
+# }
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

@@ -1,0 +1,7 @@
+[Inputs]
+BTN
+CLK
+RESET
+[Outputs]
+Q_OUT
+[BiDir]

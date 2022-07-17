@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Sun Jul 17 23:09:01 2022
+# Process ID: 12580
+# Log file: D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/planAhead_run_1/planAhead.log
+# Journal file: D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui -source D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/pa.fromNcd.tcl
+# create_project -name CounterButton -dir "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/planAhead_run_1" -part xc3s500eft256-5
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton} }
+# set_param project.paUcfFile  "CounterButton.ucf"
+# add_files "CounterButton.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+# read_xdl -file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.ncd"
+# if {[catch {read_twx -name results_1 -file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.twx\": $eInfo"
+# }
+exit
