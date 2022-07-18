@@ -3,14 +3,14 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.26 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.26 secs
  
 --> Reading design: CounterButton.prj
 
@@ -104,9 +104,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/CounterButton is now defined in a different file.  It was defined in "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd", and is now defined in "D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd".
+WARNING:HDLParsers:3607 - Unit work/CounterButton/Behavioral is now defined in a different file.  It was defined in "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd", and is now defined in "D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd".
+WARNING:HDLParsers:3607 - Unit work/Debounce is now defined in a different file.  It was defined in "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd", and is now defined in "D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd".
+WARNING:HDLParsers:3607 - Unit work/Debounce/Behavioral is now defined in a different file.  It was defined in "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd", and is now defined in "D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd".
+Compiling vhdl file "D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd" in Library work.
 Architecture behavioral of Entity debounce is up to date.
-Compiling vhdl file "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd" in Library work.
+Compiling vhdl file "D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd" in Library work.
 Architecture behavioral of Entity counterbutton is up to date.
 
 =========================================================================
@@ -134,7 +138,7 @@ Entity <Debounce> analyzed. Unit <Debounce> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <Debounce>.
-    Related source file is "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd".
+    Related source file is "D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd".
     Found 1-bit register for signal <Q1>.
     Found 1-bit register for signal <Q2>.
     Found 1-bit register for signal <Q3>.
@@ -144,7 +148,7 @@ Unit <Debounce> synthesized.
 
 
 Synthesizing Unit <CounterButton>.
-    Related source file is "D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd".
+    Related source file is "D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd".
     Found 8-bit up counter for signal <temp_led>.
     Summary:
 	inferred   1 Counter(s).
@@ -365,14 +369,14 @@ Offset:              4.063ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 1.78 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.31 secs
  
 --> 
 
-Total memory usage is 213992 kilobytes
+Total memory usage is 213864 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

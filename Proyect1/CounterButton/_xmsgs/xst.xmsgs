@@ -5,5 +5,17 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CounterButton</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CounterButton/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/CounterButton.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Debounce</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Debounce/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/Debounce.vhd</arg>&quot;.
+</msg>
+
 </messages>
 

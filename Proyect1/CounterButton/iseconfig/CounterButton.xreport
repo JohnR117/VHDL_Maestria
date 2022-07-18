@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-07-17T22:04:34</DateModified>
+  <DateModified>2022-07-14T15:22:02</DateModified>
   <ModuleName>CounterButton</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton/iseconfig/CounterButton.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Maestria/EDA/VHDL_Maestria/Proyect1/CounterButton</ImplementationReportsDirectory>
+  <SavedFilePath>D:/++EDA/VHDL_Maestria/Proyect1/CounterButton/iseconfig/CounterButton.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/++EDA/VHDL_Maestria/Proyect1/CounterButton\</ImplementationReportsDirectory>
   <DateInitialized>2022-07-17T22:04:34</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
